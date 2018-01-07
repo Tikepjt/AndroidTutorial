@@ -1,3 +1,3 @@
 # AndroidTutorial
 
-Tutoral file.
+Tutorial file.
