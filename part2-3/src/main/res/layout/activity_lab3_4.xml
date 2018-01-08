@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,21 +10,50 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""/>
+        android:text="@string/email_phone"
+        android:autoLink="web|email|phone"/>
 
     <!--maxLines, ellipsize Test-->
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_Text"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="3"/>
 
     <!--Custom Font Test-->
-
-
+    <TextView
+        android:id="@+id/fontView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"/>
 
     <!--ImageView maxWidth, maxHeight Test-->
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"/>
 
     <!--inputType Test-->
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/input_phone_number"
+        android:layout_marginTop="16dp" />
 
     <!--ChackBox Test-->
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_unChecked"
+        android:layout_marginTop="16dp"/>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

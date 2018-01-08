@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">part2-3</string>
+    <string name="app_name">part2_3</string>
     <string name="button_1">Button 1</string>
     <string name="button_2">Button 2</string>
     <string name="visible_true">visible true</string>
     <string name="visible_false">visible false</string>
     <string name="hello_world">hello world</string>
-    <string name="long">
-        Git이란?
-버전관리를 편리하게 해주는 분산형 버전관리 시스템
-초기에는 Linux의 소스코드를 관리할 목적으로 개발
-소스코드(외 작업파일)의 변경 이력을 쉽게 확인할 수 있다.
-특정 시점에 저장된 버전과 비교할 수 있다.
-특정 시점으로 되돌아 갈 수 있다.
-매번 백업용 복사본 파일을 만들 필요가 없어 편리하다.
+    <string name="long_Text">
+        Git이란? 버전관리를 편리하게 해주는 분산형 버전관리 시스템.
+        초기에는 Linux의 소스코드를 관리할 목적으로 개발소스코드(외 작업파일)의 변경 이력을 쉽게 확인할 수 있다.
+        특정 시점에 저장된 버전과 비교할 수 있다.
+        특정 시점으로 되돌아 갈 수 있다.
+        매번 백업용 복사본 파일을 만들 필요가 없어 편리하다.
     </string>
+    <string name="email_phone">가나다라 http://www.google.com 마바사 a@a.com 아자차카타 1234 5678</string>
+    <string name="custom_font">Custom Font</string>
+    <string name="input_phone_number">전화번호 입력</string>
+    <string name="is_unChecked">is unChecked</string>
 </resources>
