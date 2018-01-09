@@ -27,7 +27,7 @@
         android:id="@+id/fontView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="@string/custom_font"
         android:layout_marginTop="16dp"/>
 
     <!--ImageView maxWidth, maxHeight Test-->

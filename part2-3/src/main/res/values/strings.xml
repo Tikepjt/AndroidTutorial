@@ -16,4 +16,6 @@
     <string name="custom_font">Custom Font</string>
     <string name="input_phone_number">전화번호 입력</string>
     <string name="is_unChecked">is unChecked</string>
+    <string name="is_Checked">is Checked</string>
+
 </resources>
