@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Part2_4</string>
-    <string name="tike">Tike</string>
+    <string name="name">Tike</string>
     <string name="hello_hay">Hello, How are you?</string>
     <string name="date">18.01.09</string>
+    <string name="logo">logo</string>
 
 </resources>
