@@ -12,7 +12,7 @@ public class Lab4_3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab4_3);
 
-        TabHost host =(TabHost)findViewById(R.id.host);
+        TabHost host = findViewById(R.id.host);
         host.setup();
 
         TabHost.TabSpec spec = host.newTabSpec("tab1");
