@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tistory.tikepjt.part2_4.Lab4_4Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+            <TableRow>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.7"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.8"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.9"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.4"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.5"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.6"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.1"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.2"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.3"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/bt_."
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/no.0"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+                <Button android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/bt_sm"
+                    android:paddingTop="32dp"
+                    android:paddingBottom="32dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <GridLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button android:text="@string/bt_del"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"/>
+            <Button android:text="@string/bt_sp"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"/>
+            <Button android:text="@string/bt_x"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"/>
+            <Button android:text="@string/bt_mn"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"/>
+            <Button android:text="@string/bt_pu"
+                android:paddingTop="24dp"
+                android:paddingBottom="24dp"/>
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
