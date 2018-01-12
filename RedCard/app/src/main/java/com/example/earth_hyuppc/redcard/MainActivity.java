@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     public void OutBtnClicked(View v) {
         Intent intent = new Intent(this, RedCardActivity.class);
         startActivity(intent);
-
     }
-}
+
+//    final EditText nameText = (EditText) findViewById(R.id.editText);
+//    Button OutButton = (Button) findViewById(R.id.button);
+    }
+//}
