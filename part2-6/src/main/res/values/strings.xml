@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Part2-6</string>
+    <string name="am">오전</string>
+    <string name="time_5_40">5:40</string>
+    <string name="helium">Helium</string>
+    <string name="vibrate">진동</string>
 </resources>
