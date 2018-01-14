@@ -18,6 +18,8 @@ import android.widget.Toast;
 
 import java.util.Calendar;
 
+import static android.app.ProgressDialog.*;
+
 public class Lab5_2Activity extends AppCompatActivity implements View.OnClickListener{
 
     Button alertBtn;
@@ -30,7 +32,6 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
     AlertDialog customDialog;
     AlertDialog listDialog;
     AlertDialog alertDialog;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,7 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
         alertBtn = findViewById (R.id.btn_alert);
         listBtn = findViewById (R.id.btn_list);
         progressBtn = findViewById (R.id.btn_progress);
+        dateBtn = findViewById (R.id.btn_date);
         timeBtn = findViewById (R.id.btn_time);
         customDialogBtn = findViewById (R.id.btn_custom);
 
@@ -55,23 +57,25 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
         toast.show();
     }
 
-        DialogInterface.OnCancelListener dialogListener = new DialogInterface.OnClickListener(){
+        DialogInterface.OnClickListener dialogListener = new DialogInterface.OnClickListener(){
         @Override
         public void onClick(DialogInterface dialog, int which){
             if (dialog==customDialog && which==DialogInterface.BUTTON_POSITIVE){
                 showToast("CustomDialog Confirm click....");
-            }else if (listDialog){
+            }else if (dialog == listDialog){
                 String[] dates=getResources().getStringArray(R.array.dialog_array);
                 showToast(dates[which]+ "Celected.");
-            }else if (dialog==alertDialog && which == DialogInterface.BUTTON_POSITIVE){
+            }else if (dialog == alertDialog && which == DialogInterface.BUTTON_POSITIVE){
                 showToast("alert dialog ok click....");
             }
         }
     };
+
     @Override
     public void onClick(View v) {
         if (v == alertBtn){
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setIcon(android.R.drawable.ic_dialog_alert);
             builder.setTitle("Alert");
             builder.setMessage("Really shut down?");
             builder.setPositiveButton("OK", dialogListener);
@@ -91,12 +95,15 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
             listDialog.show();
 
         }else if (v == progressBtn){
-            ProgressDialog progressDialog = new ProgressDialog(this);
-            ProgressDialog.setTitle("Wait..");
+            ProgressDialog progressDialog;
+            progressDialog = new ProgressDialog(this);
+            progressDialog.setIcon(android.R.drawable.ic_dialog_alert);
+            progressDialog.setTitle("Wait..");
             progressDialog.setMessage("Please wait.");
 
-            ProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-            ProgressDialog.setIndeterminate(true);
+
+            progressDialog.setProgressStyle(STYLE_HORIZONTAL);
+            progressDialog.setIndeterminate(true);
 
             progressDialog.show();
 
@@ -114,7 +121,7 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
                     }
                 }, year, month, day);
                 dateDialog.show();
-        }else if (v = timeBtn){
+        }else if (v == timeBtn){
             Calendar c = Calendar.getInstance();
             int hour = c.get(Calendar.HOUR_OF_DAY);
             int minute = c.get(Calendar.MINUTE);
@@ -127,9 +134,10 @@ public class Lab5_2Activity extends AppCompatActivity implements View.OnClickLis
                     }
             }, hour, minute, false);
             timeDialog.show();
-        }else if (v = customDialogBtn){
+        }else if (v == customDialogBtn){
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            LayoutInflater inflater = (LayoutInflater)getSystemService(LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+            View view = inflater.inflate(R.layout.dialog_layout, null);
             builder.setView(view);
 
             builder.setPositiveButton("allow", dialogListener);
