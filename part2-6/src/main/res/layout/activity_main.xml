@@ -8,8 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#3b479d"
-        android:paddingBottom="16dp"
-        >
+        android:paddingBottom="16dp">
 
         <TextView
             android:id="@+id/ampm"
@@ -44,19 +43,17 @@
             android:id="@+id/repeatCheck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="반복"
+            android:text="@string/repeat"
             android:textColor="#FFFFFF"
             android:layout_below="@id/ampm"
             android:layout_alignLeft="@id/ampm"
             android:layout_marginTop="16dp"
-            android:buttonTint="#FFFFFF"
-            />
+            android:buttonTint="#FFFFFF"/>
 
         <ImageView
             android:id="@+id/bell"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/bell"
             android:layout_below="@id/repeatCheck"
             android:layout_alignLeft="@id/ampm"
             android:layout_marginTop="16dp"/>
@@ -72,7 +69,7 @@
             android:id="@+id/label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="라벨"
+            android:text="@string/label"
             android:textColor="#FFFFFF"
             android:layout_below="@id/bell_name"
             android:layout_alignLeft="@id/ampm"
