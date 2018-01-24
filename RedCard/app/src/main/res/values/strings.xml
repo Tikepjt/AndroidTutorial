@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RedCard</string>
+    <string name="out">OUT!!</string>
+    <string name="name">Name</string>
+    <string name="back">Back</string>
 
 </resources>

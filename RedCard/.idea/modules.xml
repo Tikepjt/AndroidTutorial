@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RedCard.iml" filepath="$PROJECT_DIR$/RedCard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RedCard.iml" filepath="$PROJECT_DIR$/RedCard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication-intent/myapplication-intent.iml" filepath="$PROJECT_DIR$/myapplication-intent/myapplication-intent.iml" />
     </modules>
   </component>
 </project>
