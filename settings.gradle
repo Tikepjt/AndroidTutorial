@@ -1,1 +1,1 @@
-include ':app', ':part2-3', ':part2_4', ':part2-6', ':part2-7', ':intent_example'
+include ':app', ':part2-3', ':part2_4', ':part2-6', ':part2-7', ':intent_example', ':mission_00', ':part3-8'

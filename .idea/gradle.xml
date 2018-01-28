@@ -10,10 +10,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/intent_example" />
+            <option value="$PROJECT_DIR$/mission_00" />
             <option value="$PROJECT_DIR$/part2-3" />
             <option value="$PROJECT_DIR$/part2-6" />
             <option value="$PROJECT_DIR$/part2-7" />
             <option value="$PROJECT_DIR$/part2_4" />
+            <option value="$PROJECT_DIR$/part3-8" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
