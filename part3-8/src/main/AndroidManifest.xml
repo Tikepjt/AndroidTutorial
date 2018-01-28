@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReadDBActivity"></activity>
+        <activity android:name=".ReadDBActivity" />
+        <activity android:name=".Lab8_2Activity" />
+        <activity android:name=".RealmReadActivity"></activity>
     </application>
 
 </manifest>

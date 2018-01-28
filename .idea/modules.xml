@@ -5,12 +5,14 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidTutorial.iml" filepath="$PROJECT_DIR$/AndroidTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/intent_example/intent_example.iml" filepath="$PROJECT_DIR$/intent_example/intent_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab8_2/lab8_2.iml" filepath="$PROJECT_DIR$/lab8_2/lab8_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mission_00/mission_00.iml" filepath="$PROJECT_DIR$/mission_00/mission_00.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-3/part2-3.iml" filepath="$PROJECT_DIR$/part2-3/part2-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-6/part2-6.iml" filepath="$PROJECT_DIR$/part2-6/part2-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2-7/part2-7.iml" filepath="$PROJECT_DIR$/part2-7/part2-7.iml" />
       <module fileurl="file://$PROJECT_DIR$/part2_4/part2_4.iml" filepath="$PROJECT_DIR$/part2_4/part2_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/part3-8/part3-8.iml" filepath="$PROJECT_DIR$/part3-8/part3-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/part3-9/part3-9.iml" filepath="$PROJECT_DIR$/part3-9/part3-9.iml" />
     </modules>
   </component>
 </project>
