@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        contentView=(EditText)findViewById(R.id.content);
-        btn=(Button)findViewById(R.id.btn);
+        contentView=findViewById(R.id.content);
+        btn=findViewById(R.id.btn);
 
         btn.setOnClickListener(this);
 
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 writer.close();
 
 
-                Intent intent=new Intent(this, com.example.user.part3_9.ReadFileActivity.class);
+                Intent intent=new Intent(this, com.tistory.tikepjt.part3_9.ReadFileActivity.class);
                 startActivity(intent);
             }catch (Exception e){
                 e.printStackTrace();
